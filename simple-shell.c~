@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+/*
+-Separar todos os diferentes diretorios (Usar o parametro argv[])
+-Testar se o comando se encontra em algum deles
+*/
+
+int main(int argc, char* argv[]){
+  execv("/bin/ls", argv);
+  return 0;
+}
